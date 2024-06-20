@@ -15,7 +15,7 @@ const Social = ({ data }: { data: SocialProps[] }) => {
                 <Link 
                     href={item.href} 
                     key={item.text + index} 
-                    className='flex gap-2 items-center p-1 border rounded-full sm:border-0 text-neutral-400 border-neutral-700'
+                    className='flex gap-1 items-center p-1 border rounded-full sm:border-0 text-neutral-400 border-neutral-700'
                     aria-label={`Link to ${item.text}`}
                 >
                     <item.icon aria-hidden="true" /> 
