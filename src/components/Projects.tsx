@@ -15,9 +15,9 @@ const Projects = () => {
                             <div className='flex items-center '>
                                 <h3 className='text pr-2' >{item.title}
                                 </h3>
-                                <div className='flex gap-1 items-center text-neutral-400'>
-                                    <Link href={item.githubLink}>< FiGithub className='hover:text-neutral-300 transition-all' /></Link>
-                                    <Link href={item.liveLink}><FiGlobe className='hover:text-neutral-300 transition-all' /></Link>
+                                <div className='flex gap-2 items-center text-neutral-400'>
+                                    <Link  aria-label={`Link to ${item.title} github repository`} href={item.githubLink}>< FiGithub className='hover:text-neutral-300 transition-all' /></Link>
+                                    <Link aria-label={`Link to ${item.title} live demo`} href={item.liveLink}><FiGlobe className='hover:text-neutral-300 transition-all' /></Link>
                                 </div>
                             </div>
                             <div className='text-xs text-neutral-400'>
