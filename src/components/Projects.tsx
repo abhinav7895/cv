@@ -1,7 +1,6 @@
 import React from 'react'
 import Section from './Section'
 import { FiGithub, FiGlobe } from 'react-icons/fi'
-import Link from 'next/link'
 import { projectDetails } from '../../cv.config'
 
 
@@ -16,8 +15,8 @@ const Projects = () => {
                                 <h3 className='text pr-2' >{item.title}
                                 </h3>
                                 <div className='flex gap-2 items-center text-neutral-400'>
-                                    <Link  aria-label={`Link to ${item.title} github repository`} href={item.githubLink}>< FiGithub className='hover:text-neutral-300 transition-all' /></Link>
-                                    <Link aria-label={`Link to ${item.title} live demo`} href={item.liveLink}><FiGlobe className='hover:text-neutral-300 transition-all' /></Link>
+                                    <a aria-label={`Link to ${item.title} github repository`} href={item.githubLink}>< FiGithub className='hover:text-neutral-300 transition-all' /></a>
+                                    <a aria-label={`Link to ${item.title} live demo`} href={item.liveLink}><FiGlobe className='hover:text-neutral-300 transition-all' /></a>
                                 </div>
                             </div>
                             <div className='text-xs text-neutral-400'>
