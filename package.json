@@ -1,7 +1,11 @@
 {
   "name": "cv",
   "version": "0.1.0",
-  "private": true,
+  "license": "MIT",
+  "repository": {"url": "https://github.com/abhinav7895/cv"},
+  "author": {
+    "name": "Abhinav Yadav"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",

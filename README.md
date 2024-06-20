@@ -1,8 +1,12 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# CV of [Abhinav Yadav](https://abhinavyadav.in)
 
-## Getting Started
+Hey there! I'm Abhinav Yadav, a passionate web developer. This CV template has been migrated to `nextjs` with print preview and mobile support, so you can check it out on any device!
 
-First, run the development server:
+## Usage
+
+### Install dependencies
+
+First, make sure you have all the dependencies installed. You can use npm, yarn, pnpm, or bun, whichever you prefer.
 
 ```bash
 npm run dev
@@ -16,21 +20,21 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Getting Started
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+You can start editing or customizing your resume by modifying the `cv.config.ts` file.
 
-## Learn More
+## File Contents
 
-To learn more about Next.js, take a look at the following resources:
+The `cv.config.ts` file contains the following details:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Name**
+- **Summary**
+- **Projects**
+- **Skills**
+- **Experience**
+- **Social Links**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[MIT](LICENSE)
