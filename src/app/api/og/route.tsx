@@ -9,11 +9,11 @@ export async function GET(request: Request) {
   const summary = searchParams.get("summary") ?? "";
 
   const RalewayBold = await fetch(
-    new URL("./Raleway/Raleway-Bold.ttf", import.meta.url)
+    new URL("../../../../public/Raleway/Raleway-Bold.ttf", import.meta.url)
   ).then((res) => res.arrayBuffer());
 
   const LatoRegular = await fetch(
-    new URL("./Lato/Lato-Light.ttf", import.meta.url)
+    new URL("../../../../public/Lato/Lato-Light.ttf", import.meta.url)
   ).then((res) => res.arrayBuffer());
 
   return new ImageResponse(
