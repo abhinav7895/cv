@@ -6,7 +6,7 @@ const raleway = Raleway({ subsets: ["latin"], weight: ["400", "500", "600", "700
 
 const Name = ({ ...props }: HTMLProps<HTMLHeadingElement>) => {
     return (
-        <h1 className={clsx(raleway.className, "text-2xl sm:text-3xl font-medium text-left sm:text-center text-neutral-200")} {...props}>
+        <h1 className={clsx(raleway.className, "text-3xl sm:text-4xl font-medium text-left sm:text-center text-neutral-200")} {...props}>
             {props.children}
         </h1>
     )
