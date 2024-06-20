@@ -10,7 +10,7 @@ const Education = () => {
                 {
                     educationDetails.map((item, index) => (
                 <div key={item.title + index} className='text-[15px] sm:text-base flex flex-col text-neutral-200 font-light'>
-                    <h4 >{item.title}</h4>
+                    <h3 >{item.title}</h3>
                     <p className='text-sm text-neutral-400'>{item.institution} {item.period}</p>
                 </div>
                 ))

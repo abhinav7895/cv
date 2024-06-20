@@ -9,7 +9,7 @@ const Skills = () => {
                 {
                     skillsDetails.map((item, index) => (
                         <div key={item.category + index} className=' text-[15px] sm:text-base flex flex-col text-neutral-200 font-light'>
-                            <h4 className='text-neutral-400 text-sm'>{item.category}</h4>
+                            <h3 className='text-neutral-400 text-sm'>{item.category}</h3>
                             <p className='text-[15px] sm:text-base'>
                                 {item.skills.join(", ")}
                             </p>
