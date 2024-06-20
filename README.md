@@ -1,6 +1,6 @@
 # CV of [Abhinav Yadav](https://cv.abhinavyadav.in)
 
-Hey there! I'm Abhinav Yadav, a passionate web developer. This CV template has been migrated to `nextjs` with print preview and mobile support, so you can check it out on any device!
+Hey there! I'm Abhinav Yadav. This CV template has been migrated to `nextjs` with print preview and mobile support, so you can check it out on any device!
 
 ## Usage
 
