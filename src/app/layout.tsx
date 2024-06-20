@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     description: summary,
     type: "website",
     url: "https://abhinavyadav.in",
-    images: [``],
+    images: [`/api/og?name=${name}&summary=${summary}`],
   },
 };
 
@@ -24,6 +24,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" type="image/png" href="/favicon.ico" />
+      </head>
       <body className={inter.className + " "}>{children}</body>
     </html>
   );
