@@ -1,9 +1,11 @@
 import { FiGithub, FiGlobe, FiLinkedin } from "react-icons/fi";
 import { RiTwitterXFill } from "react-icons/ri";
 
+// name
+export const name = "Abhinav Yadav"
 
 // summary 
-export const Summary = "I'm a frontend developer from India, focusing on creating user-friendly, visually appealing, and accessible websites."
+export const summary = "I'm a frontend developer from India, focusing on creating user-friendly, visually appealing, and accessible websites."
 
 // education 
 export const educationDetails = [
