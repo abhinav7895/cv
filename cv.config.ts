@@ -67,21 +67,21 @@ export const projectDetails = [
         technologies: 'React, Tailwind CSS, Redux, Vite, Swiggy API',
         description: 'Developed a Swiggy-like food ordering website using the Swiggy API, implemented with React.js, Redux Toolkit, Tailwind CSS, and React Router DOM for an interactive and seamless user experience.',
         githubLink: 'https://github.com/abhinav7895/hungerhero-order-food',
-        liveLink: 'hungerhero.abhinavyadav.in/'
+        liveLink: 'https://hungerhero.abhinavyadav.in/'
     },
     {
         title: 'Focus Frame',
         technologies: 'React, Tailwind CSS, Redux, Vite',
         description: 'Utilized Tailwind CSS for responsive UI, React Redux Toolkit for state management, and developed features for creating, categorizing, and managing tasks to enhance project management.',
         githubLink: 'https://github.com/abhinav7895/focus-frame-scrum-site',
-        liveLink: 'focusframe.vercel.app'
+        liveLink: 'https://focusframe.vercel.app'
     },
     {
         title: 'Expense Tracker',
         technologies: 'React, Tailwind CSS, Redux, Vite',
         description: 'Utilized Tailwind CSS for responsive UI, React Redux Toolkit for state management, and developed features for creating, categorizing, and managing tasks to enhance project management.',
         githubLink: 'https://github.com/abhinav7895/expense-tracker',
-        liveLink: 'expensetracker-pi-ruddy.vercel.app'
+        liveLink: 'https://expensetracker-pi-ruddy.vercel.app'
     }
 ];
 
