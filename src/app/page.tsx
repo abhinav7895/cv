@@ -9,8 +9,8 @@ import Skills from "@/components/Skills";
 
 export default function Home() {
   return (
-    <main className="max-w-3xl px-2 py-10 w-full mx-auto h-full min-h-screen">
-      <div className="w-full flex px-4 sm:px-5 py-8 flex-col gap-2 h-full bg-neutral-900 rounded-md border border-neutral-800">
+    <main className=" w-full  bg-neutral-950 p-3 sm:p-7  ">
+      <div className="w-full max-w-3xl  min-h-screen mx-auto  flex px-4 sm:px-5 py-8 flex-col gap-2 h-full bg-neutral-900 rounded-md border border-neutral-800">
         <Name>
           {name}
         </Name>
