@@ -76,13 +76,6 @@ export const projectDetails = [
         githubLink: 'https://github.com/abhinav7895/focus-frame-scrum-site',
         liveLink: 'https://focusframe.vercel.app'
     },
-    {
-        title: 'Expense Tracker',
-        technologies: 'React, Tailwind CSS, Redux, Vite',
-        description: 'Utilized Tailwind CSS for responsive UI, React Redux Toolkit for state management, and developed features for creating, categorizing, and managing tasks to enhance project management.',
-        githubLink: 'https://github.com/abhinav7895/expense-tracker',
-        liveLink: 'https://expensetracker-pi-ruddy.vercel.app'
-    }
 ];
 
 // experince 
@@ -92,7 +85,7 @@ export const experienceDetails = [
         description: 'I have been working as a self-learning developer for many months. I have worked on numerous projects.'
     },
     {
-        title: 'Full Stack Developer Intern at @Revspire Technologies',
+        title: 'Technical Intern at @Revspire Technologies',
         description: 'Gained hands-on experience in full stack development, working on both front-end and back-end technologies. Contributed to real-world projects, learned industry best practices, and developed skills in modern web development frameworks and tools.'
     }
 ];
